@@ -1,0 +1,327 @@
+
+
+.punter-top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px !important;
+    min-width: 300px;
+    height: 10rem;
+    margin: 100px auto 0px auto;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #efefef;
+}
+
+.top-punter-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.punter-logo {
+    display: block;
+    height: 90px;
+    width: 170px;
+    margin: 10px;
+}
+
+.sign-up-title {
+    display: block !important;
+    color: #002F52;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 42px;
+    padding-right: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bold-text {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+}
+
+.login-bg-image {
+    background-repeat: no-repeat;
+    background-image: url(https://resources.ecb.co.uk/sso-resources/ECBbackgroundImg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+}
+
+#okta-login-container {
+    flex: 1;
+}
+
+.auth-container.main-container {
+    background-color: #fff;
+    border-color: #ddd #ddd #d8d8d8;
+    box-shadow: 0 2px 0 hsl(0deg 0% 69% / 12%);
+    font-family: montserrat,Arial,Helvetica,sans-serif;
+    color: #5c6971;
+    border-radius: 0px 0px 20px 20px !important;
+    margin: 0px auto 50px auto !important;
+    width: 400px !important;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    min-width: 300px;
+}
+
+.no-beacon .auth-content {
+    padding: 20px 42px;
+    -moz-transition: padding-top .4s;
+    -webkit-transition: padding-top .4s;
+    transition: padding-top .4s;
+}
+
+.auth-content .auth-content-inner {
+    position: relative;
+}
+
+.o-form-edit-mode .o-form-content {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 0 0 14px;
+    border-radius: 0;
+    border: none;
+}
+
+.o-form-fieldset {
+    height: auto;
+    word-wrap: break-word;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-container .okta-form-label {
+    color: #002F52 !important;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    padding: 7px 10px 7px 0;
+}
+
+.o-form label {
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.o-form-label-top .o-form-label {
+    width: 100%;
+    float:left;
+}
+
+.auth-container .okta-form-input-field {
+    border: 1px solid #929292 !important;
+    border-radius: 4px !important;
+    background-color: #FFFFFF;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+}
+
+.o-form .input-fix input[type=textbox] {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 6px 8px;
+    line-height: 16px;
+    border: none;
+    font-family: montserrat,Arial,Helvetica,sans-serif;
+    color: #2f3f4a;
+    font-size: 13px;
+    box-shadow: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.auth-container.main-container .margin-btm-30 {
+    margin-bottom: 30px;
+}
+
+.o-form-button-bar {
+    background: transparent;
+    border: none;
+    padding: 0 0 25px;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: -1px;
+    text-align: right;
+}
+
+.auth-container input[type="submit"] {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    background: #002F52 !important;
+    border: 0px !important;
+    text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 15px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%), inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
+}
+
+.auth-container .auth-footer {
+    /* opacity: 0.7; */
+    color: #111111;
+    font-size: 13px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 14px;
+    font-family: GothamBook !important;
+}
+
+.auth-container .link{
+    color: #5c6971;
+    text-decoration: none;
+}
+
+.auth-container .link:hover{
+    text-decoration: underline;
+}
+
+.auth-content  ul {
+    list-style: none;
+}
+
+.auth-content .help-links li {
+    margin-top: 15px;
+}
+
+.auth-container .okta-form-input-field input {
+    font-family: montserrat,Arial,Helvetica,sans-serif;
+    color: #2f3f4a;
+}
+
+.auth-container .okta-form-label {
+    color: #002F52 !important;
+    font-size: 14px;
+    padding: 7px 10px 7px 0;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.o-form-label-top .o-form-input{
+    width: 100%;
+    float: left;
+}
+
+.o-form-fieldset:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.auth-container .o-form-input-name-remember {
+    color: #002F52;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.custom-checkbox, 
+.custom-radio {
+    position: relative;
+    clear: both;
+}
+
+.custom-checkbox input, .custom-radio input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.o-form label {
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.o-form .input-fix input[type=text]{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 6px 8px;
+    line-height: 16px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.auth-container .okta-form-input-field input[type=password] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 6px 8px;
+    line-height: 16px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    color: #2f3f4a;
+    box-shadow: none;
+}
+
+.auth-content ul {
+    list-style: none;
+    display: none;
+}
+.submit_button {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    background: #002F52 !important;
+    border: 0px !important;
+    text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 15px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
